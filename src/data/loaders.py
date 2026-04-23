@@ -1,5 +1,5 @@
 from sklearn.datasets import load_iris
-import pandas as pd
+
 
 def load_iris_dataset():
     data = load_iris(as_frame=True)

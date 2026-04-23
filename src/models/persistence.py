@@ -6,7 +6,7 @@ from typing import Any
 def save_model(model: Any, path: str | Path) -> None:
     """
     Save a trained model to disk using joblib.
-    
+
     Args:
         model: The trained model object to save
         path: File path where the model will be saved
@@ -20,10 +20,10 @@ def save_model(model: Any, path: str | Path) -> None:
 def load_model(path: str | Path) -> Any:
     """
     Load a trained model from disk.
-    
+
     Args:
         path: File path to the saved model
-        
+
     Returns:
         The loaded model object
     """
