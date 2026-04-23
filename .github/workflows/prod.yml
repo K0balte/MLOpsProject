@@ -28,9 +28,9 @@ jobs:
 
         with:
 
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          username: ${{ secrets.seydina88 }}
 
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+          password: ${{ secrets.dckr_pat_L7Nh8NczsjMswDqA9dq07lEVNTY }}
 
       - name: Build and push
 
