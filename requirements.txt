@@ -5,3 +5,4 @@ pyyaml>=6.0.3
 requests>=2.32.5
 scikit-learn>=1.8.0
 joblib>=1.4.2
+flake8>=7.0.0
